@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #727274;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: x-large;
+    border: 1, transparent;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: #828284;
+}
