@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
 body {
     margin: 0;
+    font-family: "Silkscreen", sans-serif;
+
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #727274;
 }
 
 header a {
     color: #ffffff;
     text-decoration: none;
-    font-size: x-large;
-    border: 1, transparent;
+    text-align: center;
+    font-size: 2em;
     border-radius: 10px;
+    padding: 0.4em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 header a:hover {
