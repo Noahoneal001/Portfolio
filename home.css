@@ -13,7 +13,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     background-color: #727274;
-    width: 100%;
+    width: 100vw;
+    height: 10vh;
 }
 
 header a {
@@ -79,7 +80,7 @@ header a:hover {
     width: 15%;
     height: 0%;
     position: absolute;
-    top: 7%;
+    top: 10vh;
     right: 26%;
 }
 
