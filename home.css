@@ -40,14 +40,12 @@ header a:hover {
     background-color: #969696;
     margin-top: 5vh;
     width: 95vw;
-    height: 40vh;
     border-radius: 2rem;
 }
 
 .textBox {
     background-color: #828284;
     width: 80%;
-    height: 90%;
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
@@ -58,14 +56,14 @@ header a:hover {
 .textBox p {
     color: #44ff00;
     margin: 1%;
+    font-size: 3rem;
 }
 
 .imgOfMySelf {
     background-color: #b1b1b2;
     border: 0.3rem solid black;
     border-radius: 10%;
-    width: auto;
-    height: 90%;
+    width: 16%;
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 2%;
@@ -76,11 +74,30 @@ header a:hover {
     transition: all 10s;
     overflow-y: hidden;
     transition: all 1s;
-    background-color: yellow;
+    background-color: rgb(210, 210, 210);
     width: 15%;
     height: 0%;
     position: absolute;
     top: 10vh;
     right: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
+.dropdownButton {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    width: 75%;
+    
+}
+
+.dropdownButton:hover {
+    background-color: #a4a4a4;
+}
