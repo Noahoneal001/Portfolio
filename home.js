@@ -23,7 +23,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
     document.addEventListener(`click`, (eventData) => {
 
         if (!eventData.target.matches(`.dropdownPart`) && dropdownDeployed) {
-            document.getElementById(`dropdown`).style.height = `0px`
+            getById(`dropdown`).style.height = `0px`
             dropdownDeployed = false
         }
 
