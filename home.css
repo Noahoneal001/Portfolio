@@ -85,6 +85,7 @@ header a:hover {
     align-items: center;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    z-index: 10;
 }
 
 .dropdownButton {

@@ -1,0 +1,27 @@
+body {
+    overflow-x: hidden;
+}
+
+iframe {
+    margin-top: 2vh;
+    width: 80vw;
+    height:70vh;
+    margin-bottom: 2vh;
+    animation: 1.5s ease-in 1ms 1 reverse both running slidein;
+    transform: translateX(150%);
+}
+
+.pain {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@keyframes slidein{
+    0% {
+        transform: translateX(150%);
+    }
+
+    0% {transform: translateX(0%);}
+}
