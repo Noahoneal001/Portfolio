@@ -38,7 +38,6 @@ header a:hover {
     align-items: center;
     justify-content: space-between;
     background-color: #969696;
-    margin-top: 5vh;
     width: 95vw;
     border-radius: 2rem;
 }
@@ -100,4 +99,12 @@ header a:hover {
 
 .dropdownButton:hover {
     background-color: #a4a4a4;
+}
+
+h1 {
+    margin-left: 8vw;
+    margin-bottom: 1vh;
+    align-self: flex-start;
+    color: #ffffff;
+    font-size: 3rem;
 }
