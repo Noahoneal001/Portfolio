@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 section.aboutMe {
     display: flex;
     flex-direction: row;
@@ -6,6 +10,7 @@ section.aboutMe {
     background-color: #969696;
     width: 95vw;
     border-radius: 2rem;
+    transform: translateX(150%);
 }
 
 img {
@@ -17,4 +22,22 @@ img {
     margin-bottom: 1%;
     margin-left: 2%;
     margin-right: 1%;
+}
+
+p {
+    color: #44ff00;
+    margin: 1%;
+    font-size: 3rem;
+}
+
+.slidein {
+    animation: 1.5s ease-in 1ms 1 reverse both running slidein;
+}
+
+@keyframes slidein{
+    0% {
+        transform: translateX(150%);
+    }
+
+    0% {transform: translateX(0%);}
 }
